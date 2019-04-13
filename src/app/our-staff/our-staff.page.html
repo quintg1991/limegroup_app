@@ -1,0 +1,19 @@
+<ion-header color="#000">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title color="limegroup">
+      Meet Our Team
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let member of members">
+    <ion-img src={{member.url}}></ion-img>
+    <ion-card-header>
+      {{member.name}}
+    </ion-card-header>
+  </ion-card>
+</ion-content>

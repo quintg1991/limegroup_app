@@ -17,7 +17,7 @@ export class AppComponent {
     },
     {
       title: "Meet our Team",
-      url: "/list",
+      url: "/our-staff",
       icon: "people"
     },
     {

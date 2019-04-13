@@ -18,7 +18,8 @@ const routes: Routes = [
   {
     path: "list-detail/:service",
     loadChildren: "./list-detail/list-detail.module#ListDetailPageModule"
-  }
+  },
+  { path: 'our-staff', loadChildren: './our-staff/our-staff.module#OurStaffPageModule' }
 ];
 
 @NgModule({

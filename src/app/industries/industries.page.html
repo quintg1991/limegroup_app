@@ -1,0 +1,34 @@
+<ion-header color="#000">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title color="limegroup">
+      Industries
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Website Portfolio
+      </ion-card-title>
+      <br />
+      <ion-card-subtitle>
+        View some of our websites belo. Note: this list is not updated regularly. For a collection of our latest sites,
+        call us at <a href="tel:2563670160">(256) 367-0160</a>
+      </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-list *ngFor="let site of sites">
+        <ion-item>
+          <a href={{site.url}}>{{site.name}}</a>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -27,7 +27,7 @@ export class AppComponent {
     },
     {
       title: "Industries",
-      url: "/list",
+      url: "/industries",
       icon: "business"
     },
     {

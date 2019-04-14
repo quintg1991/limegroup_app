@@ -19,7 +19,8 @@ const routes: Routes = [
     path: "list-detail/:service",
     loadChildren: "./list-detail/list-detail.module#ListDetailPageModule"
   },
-  { path: 'our-staff', loadChildren: './our-staff/our-staff.module#OurStaffPageModule' }
+  { path: 'our-staff', loadChildren: './our-staff/our-staff.module#OurStaffPageModule' },
+  { path: 'industries', loadChildren: './industries/industries.module#IndustriesPageModule' }
 ];
 
 @NgModule({
@@ -28,4 +29,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

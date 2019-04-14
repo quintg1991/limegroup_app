@@ -1,5 +1,7 @@
 {
   "name": "limegroup",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
